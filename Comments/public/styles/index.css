@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+html { }
+body { margin: 0px; font-size: 0px; background: #111;}
+body, input { font-family: "Roboto"; color: #333;}
+h1, h2, h3, h4, h5, h6 { margin: 0px; font-weight: normal;}
+p { margin: 0px;}
+ul { padding: 0px;}
+
+#write { display: block; box-sizing: border-box; max-width: 512px; margin: 16px; padding: 8px; border: 1px solid #ccc; background-color: #eaeaea;}
+	#write p { height: 32px; line-height: 32px; font-size: 16px; font-weight: 500;}
+	#write input[type="text"] { display: inline-block; vertical-align: top; box-sizing: border-box; width: calc(100% - 72px); height: 32px; padding: 0px 8px; border: 1px solid #ccc;}
+	#write input[type="submit"] { display: inline-block; vertical-align: top; box-sizing: border-box; width: 64px; height: 32px; margin-left: 8px; border: 1px solid #ccc; cursor: pointer;}
+	#write input[type="submit"]:hover { color: #428bca;}
+
+#read { display: block; box-sizing: border-box; max-width: 512px; margin: 16px;}
+	#read .comment { display: block; box-sizing: border-box; width: 100%; margin-bottom: 8px; border: 1px solid #ddd; background: #f0f0f0;}
+		#read .comment .content { display: block; padding: 8px; border-bottom: 1px solid #ddd; font-size: 14px;}
+		#read .comment .infos { display: block; padding: 8px; font-size: 12px; cursor: default;}
+			#read .comment .infos .author { color: #428bca;}
+			#read .comment .infos .author:hover { text-decoration: underline;}
+
+#reset { display: block; box-sizing: border-box; max-width: 512px; margin: 16px;}
+	#reset input { display: block; box-sizing: border-box; width: 100%; height: 32px; border: 1px solid #ccc; cursor: pointer;}
+	#reset input:hover { color: #428bca;}

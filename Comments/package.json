@@ -1,0 +1,13 @@
+{
+	"name": "Comments",
+	"description": "Chat with express.io",
+	"version": "0.1.0",
+	"dependencies":
+	{
+		"express": "4.13.4",
+		"ejs": "2.4.1",
+		"socket.io": "1.4.6",
+		"mongoose": "4.4.16"
+	},
+	"author": "Kamipown <paul.delobbel@gmail.com>"
+}
